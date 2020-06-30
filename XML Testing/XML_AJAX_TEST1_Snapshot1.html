@@ -1,0 +1,50 @@
+<!-- Start of script !-->
+<!-- Thanks to: https://www.w3schools.com/xml/ajax_intro.asp
+for help with this test
+!-->
+<!DOCTYPE html>
+<html>
+<body>
+<meta>
+	<meta charset="UTF-16">
+</meta>
+<title>XML AJAX test 1 - November 3rd 2019</title>
+<script> // The text that will be placed via AJAX
+function loadDoc() {
+	var xhttp = new XMLHttpRequest();
+	xhttp.onreadystatechange = function() {
+	if (this.readyState == 4 && this.status == 200) {
+		document.getElementById("demo").innerHTML = this.responseText;
+		}
+	};
+	xhttp.open("GET", "ajax_info.txt", true);
+	xhttp.send();
+}
+</script>
+<HR>
+<H1>XML AJAX test 1 - November 3rd 2019</H1>
+<div id="demo">
+	<h2>Let AJAX change this text</h2>
+	<button type="button" onclick="loadDoc()">Change Content</button>
+</div>
+<HR>
+<H1>This test is unsuccessful in Firefox 68 and up due to a CORS request being made instead of an HTTP request via the local file system SNU uses. I don't know how to fix the issue yet.</H1>
+<H1>Thanks to W3schools for the source code for this text <a href="https://www.w3schools.com/xml/ajax_intro.asp">View the source</a></H1>
+<HR>
+<details><summary><p>View older versions of this page</p></summary>
+<p>Snapshots 1 to 10</p>
+<H1><a href="XML_AJAX_TEST1_Snapshot1.html">Snapshot 1 (November 3rd 2019)</a></H1>
+<H1><a href="XML_AJAX_TEST1_Snapshot2.html">Snapshot 2</a></H1>
+<H1><a href="XML_AJAX_TEST1_Snapshot3.html">Snapshot 3</a></H1>
+<H1><a href="XML_AJAX_TEST1_Snapshot4.html">Snapshot 4</a></H1>
+<H1><a href="XML_AJAX_TEST1_Snapshot5.html">Snapshot 5</a></H1>
+<H1><a href="XML_AJAX_TEST1_Snapshot6.html">Snapshot 6</a></H1>
+<H1><a href="XML_AJAX_TEST1_Snapshot7.html">Snapshot 7</a></H1>
+<H1><a href="XML_AJAX_TEST1_Snapshot8.html">Snapshot 8</a></H1>
+<H1><a href="XML_AJAX_TEST1_Snapshot9.html">Snapshot 9</a></H1>
+<H1><a href="XML_AJAX_TEST1_Snapshot10.html">Snapshot 10</a></H1>
+</details>
+<HR
+</body>
+</html>
+<!-- End of script !-->

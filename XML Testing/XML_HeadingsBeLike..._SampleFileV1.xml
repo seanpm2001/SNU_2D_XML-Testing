@@ -1,0 +1,29 @@
+<!-- Start of script !-->
+<!-- H1, H2, H3, H4, H5, H6 !-->
+<!-- XML Sample file !-->
+<title1="HeadingsBeLike"></title1>
+<bodyMain>
+<titlemeta="Headings be like..."></titlemeta>
+<h1="Heading 1">
+	<h2="Heading 2">
+		<h3="Heading 3">
+			<h4="Heading 4">
+				<h5="Heading 5">
+					<h6="Heading 6"></h6><!-- End of H6 !-->
+				</h5><!-- End of H5 !-->
+			</h4><!-- End of H4 !-->
+		</h3><!-- End of H3 !-->
+	</h2><!-- End of H2 !-->
+</h1><!-- End of H1 !-->
+</bodyMain>
+<!-- Divider !-->
+<fileInfo>
+	<fileVerCurrent="Version 1 (November 12th 2019)"></fileVerCurrent>
+	<fileVerFirst="Version 1 (November 12th 2019)"></fileVerFirst>
+	<fileType="XML"></fileType><!-- Obvious, but the compiler may need it !-->
+	<lineCount="0,.029"></lineCount>
+	<encoding1="UTF-8"></encoding1>
+	<indenting="Unix (LF)"></indenting>
+	<size1="0,.892 bytes (0,.892 Kilobytes)"></size1>
+</fileInfo>
+<!-- End of script !-->
